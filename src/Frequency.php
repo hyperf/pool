@@ -12,12 +12,12 @@ declare(strict_types=1);
 
 namespace Hyperf\Pool;
 
-use Hyperf\Contract\FreqInterface;
+use Hyperf\Contract\FrequencyInterface;
 
-abstract class Frequency implements FreqInterface
+abstract class Frequency implements FrequencyInterface
 {
     /**
      * Is it low frequency.
      */
-    abstract public function isLowFreq(): bool;
+    abstract public function isLowFrequency(): bool;
 }
